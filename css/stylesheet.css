@@ -1,0 +1,82 @@
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Myfont';
+  src:'../fonts/Muli-VariableFont_wght.ttf';
+  font-weight: 900;
+}
+body{
+  margin: 0;
+  font-family: "Myfont"
+}
+.container{
+  width: 1000px;
+  height: 900px;
+  flex-wrap: wrap;
+  margin: 0 450px 0 450px;
+  display: flex;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-top: 50px
+}
+img{
+  object-fit: cover;
+  height:400px;
+  width: 300px;
+}
+.cell {
+  width: 300px;
+  flex: 1;
+  height: 100%;
+  margin: 0 25px 0 ;
+}
+.cell p{
+  margin: 50px 0 50px 0;
+  color: grey;
+}
+.cell h2{
+  margin: 60px 0 60px 0;
+}
+
+.cell:first-child {
+  margin-left: 0;
+}
+.cell:last-child {
+  margin-right: 0;
+}
+.icons{
+  font-size:2.5rem;
+  color:yellow;
+  margin: 0 10px 0 20px;
+}
+.icons:first-child{
+  margin-left: 0;
+}
+.icons:last-child{
+  color:red;
+}
+.button1{
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  width: 35%;
+  float: left;
+  margin:10px 0px 10px 25px;
+  padding: 10px 0px 10px 0px;
+  font-weight:bolder;
+  background-color: black;
+  color: white;
+}
+.button2{
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  width: 35%;
+  float: right;
+  margin:10px 25px 10px 0px;
+  padding: 10px 0px 10px 0px;
+  font-weight:bolder;
+}
